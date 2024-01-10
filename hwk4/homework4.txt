@@ -59,3 +59,17 @@ this is the repository for <your_name_and_last_name>.
 
 QUESTION: Using markdown, how would you put a clickable link to your README.md
 to the web page of The Department of Software Engineering of Işık University
+
+ANSWER: Adding this command to readme.md file [Department of Software Engineering - Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+STEP D
+-Decide which files you do not want git to keep track of or allow to be committed to source
+control, and set up your .gitignore appropriately. You may want to use the templates
+others have contributed as a guide (see https://github.com/github/gitignore for a bunch of
+suggestions across many technologies. Java Technologies would be fine for this assignment).
+Commit these rules in the project. Ensure the text “setting up gitignore” appears in your
+commit message.
+
+QUESTION: What rules are in your .gitignore?
+
+ANSWER:
