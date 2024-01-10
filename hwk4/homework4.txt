@@ -72,4 +72,29 @@ commit message.
 
 QUESTION: What rules are in your .gitignore?
 
-ANSWER:
+ANSWER: # Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build directories
+/target/
+/build/
+
+STEP E
+-Create a branch called feature-1. Switch to that branch and move into the hmk1 directory.
+All your work will be done in this directory and on this branch.
