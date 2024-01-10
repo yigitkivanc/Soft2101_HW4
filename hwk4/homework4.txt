@@ -1,1 +1,61 @@
+STEP A
+-Configure git with your name, email, and favorite editor. Verify git knows your name, email,
+and editor by having git list your configuration.
 
+QUESTION: What are your git config commands?
+ANSWER:
+git config --global user.name "Your Name"
+
+git config --global user.email "your_email@example.com"
+
+git config --global core.editor "editor_command"
+
+STEP B
+-Clone your repository to your machine using git’s clone command. Show the cloned
+repository by listing the contents of the parent directory and then creating a listing that
+includes the .git directory.
+
+QUESTION: What files or directories are in your local .git directory?
+ANSWER: total 10529
+drwxr-xr-x 1 Yigit 197121       0 Nov 10 18:58 '3D Objects'/
+drwxr-xr-x 1 Yigit 197121       0 Nov 11 11:29  AppData/
+lrwxrwxrwx 1 Yigit 197121      30 Nov 11 11:19 'Application Data' -> /c/Users/Yigit/AppData/Roaming/
+lrwxrwxrwx 1 Yigit 197121      24 Nov 11 11:19  Belgelerim -> /c/Users/Yigit/Documents/
+drwxr-xr-x 1 Yigit 197121       0 Nov 11 11:34  Contacts/
+lrwxrwxrwx 1 Yigit 197121      58 Nov 11 11:19  Cookies -> /c/Users/Yigit/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 Yigit 197121       0 Jan 10 17:43  Desktop/
+drwxr-xr-x 1 Yigit 197121       0 Jan 10 13:39  Documents/
+drwxr-xr-x 1 Yigit 197121       0 Jan 10 17:41  Downloads/
+drwxr-xr-x 1 Yigit 197121       0 Nov 11 11:34  Favorites/
+drwxr-xr-x 1 Yigit 197121       0 Nov 10 19:12  Intel/
+drwxr-xr-x 1 Yigit 197121       0 Nov 11 11:35  Links/
+lrwxrwxrwx 1 Yigit 197121      28 Nov 11 11:19 'Local Settings' -> /c/Users/Yigit/AppData/Local/
+drwxr-xr-x 1 Yigit 197121       0 Nov 11 11:35  Music/
+-rw-r--r-- 1 Yigit 197121 6815744 Jan 10 00:10  NTUSER.DAT
+-rw-r--r-- 1 Yigit 197121   65536 Nov 11 11:19  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+-rw-r--r-- 1 Yigit 197121  524288 Nov 11 11:19  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 Yigit 197121  524288 Nov 11 11:19  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 Yigit 197121      66 Nov 11 11:19  NetHood -> '/c/Users/Yigit/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 Yigit 197121       0 Jan 10 12:59  OneDrive/
+drwxr-xr-x 1 Yigit 197121       0 Jan 10 13:39  Pictures/
+lrwxrwxrwx 1 Yigit 197121      66 Nov 11 11:19  PrintHood -> '/c/Users/Yigit/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 Yigit 197121      55 Nov 11 11:19  Recent -> /c/Users/Yigit/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 Yigit 197121       0 Dec 15 23:44 'Saved Games'/
+drwxr-xr-x 1 Yigit 197121       0 Nov 11 11:34  Searches/
+lrwxrwxrwx 1 Yigit 197121      55 Nov 11 11:19  SendTo -> /c/Users/Yigit/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 Yigit 197121       0 Jan 10 18:07  Soft2101_HW4/
+lrwxrwxrwx 1 Yigit 197121      59 Nov 11 11:19 'Start Menu' -> '/c/Users/Yigit/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 Yigit 197121      58 Nov 11 11:19  Templates -> /c/Users/Yigit/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 Yigit 197121       0 Jan 10 12:59  Videos/
+drwxr-xr-x 1 Yigit 197121       0 Nov 10 20:20  ansel/
+-rw-r--r-- 1 Yigit 197121 1675264 Nov 11 11:19  ntuser.dat.LOG1
+-rw-r--r-- 1 Yigit 197121 1048576 Nov 11 11:19  ntuser.dat.LOG2
+-rw-r--r-- 1 Yigit 197121      20 Nov 11 11:33  ntuser.ini
+
+STEP C
+-Edit your repository’s README.md to describe your repository. The README.md is for
+people who are looking for a repository, not yourself. Be creative and try something beyond
+this is the repository for <your_name_and_last_name>.
+
+QUESTION: Using markdown, how would you put a clickable link to your README.md
+to the web page of The Department of Software Engineering of Işık University
